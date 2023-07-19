@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://tv.nxog.top/api1.php?mz=m&id=1&b=欧歌");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
